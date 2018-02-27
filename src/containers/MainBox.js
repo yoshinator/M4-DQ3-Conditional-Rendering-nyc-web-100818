@@ -14,9 +14,10 @@ class MainBox extends React.Component {
     })
   }
 
-  render (){
+  render() {
 
     let details;
+
 
     switch (this.state.selected){
       case "profile":
@@ -35,8 +36,6 @@ class MainBox extends React.Component {
         details = null
         break;
     }
-
-
 
     return (
       <div>
